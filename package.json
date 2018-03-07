@@ -1,6 +1,6 @@
 {
   "name": "rb-letter-avatar",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Angular letter avatar component",
   "main": "bundles/rb-letter-avatar.umd.js",
   "jsnext:main": "bundles/es5/rb-letter-avatar.js",
