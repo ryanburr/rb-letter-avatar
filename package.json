@@ -1,0 +1,56 @@
+{
+  "name": "rb-letter-avatar",
+  "version": "1.0.0",
+  "description": "Angular letter avatar component",
+  "main": "bundles/rb-letter-avatar.umd.js",
+  "jsnext:main": "bundles/es5/rb-letter-avatar.js",
+  "module": "bundles/es5/rb-letter-avatar.js",
+  "types": "rb-letter-avatar.d.ts",
+  "scripts": {
+    "build": "rimraf dist && ng-packagr -p package.json"
+  },
+  "ngPackage": {
+    "lib": {
+      "entryFile": "src/index.ts"
+    }
+  },
+  "keywords": [
+    "angular",
+    "angular2",
+    "letter-avatar",
+    "gmail avatar",
+    "letter avatar"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ryanburr/rb-letter-avatar"
+  },
+  "bugs": {
+    "url": "https://github.com/ryanburr/rb-letter-avatar/issues"
+  },
+  "author": "Ryan M. Burr <ryan.burr2@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@angular/common": "^5.0.0",
+    "@angular/compiler": "^5.0.0",
+    "@angular/compiler-cli": "^5.0.0",
+    "@angular/core": "^5.0.0",
+    "@angular/platform-browser": "^5.0.0",
+    "@angular/platform-browser-dynamic": "^5.0.0",
+    "rxjs": "^5.3.0",
+    "zone.js": "^0.8.9"
+  },
+  "devDependencies": {
+    "@angular/common": "^5.0.0",
+    "@angular/compiler": "^5.0.0",
+    "@angular/compiler-cli": "^5.0.0",
+    "@angular/core": "^5.0.0",
+    "@angular/platform-browser": "^5.0.0",
+    "@angular/platform-browser-dynamic": "^5.0.0",
+    "@types/node": "^7.0.14",
+    "ng-packagr": "^2.1.0",
+    "node-sass": "^4.5.3",
+    "tsickle": "^0.27.2",
+    "typescript": "^2.6.2"
+  }
+}
