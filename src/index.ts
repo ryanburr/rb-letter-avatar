@@ -1,1 +1,1 @@
-export {RbUtilityModule} from "./rb-letter-avatar.module";
+export {RbLetterAvatarModule} from "./rb-letter-avatar.module";

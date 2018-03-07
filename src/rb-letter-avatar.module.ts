@@ -9,4 +9,4 @@ import {RbLetterAvatarComponent} from "./letter-avatar/rb-letter-avatar.componen
     providers: [],
     exports: [RbLetterAvatarComponent]
 })
-export class RbUtilityModule { }
+export class RbLetterAvatarModule { }
